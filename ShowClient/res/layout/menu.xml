@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/apk/res/com.zcw.togglebutton.sample"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/menu_bg">
+    
+    <com.zcw.togglebutton.ToggleButton
+        android:id="@+id/menu_togglebutton"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_margin="10dp" />
+
+</LinearLayout>
