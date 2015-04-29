@@ -3,13 +3,73 @@
     xmlns:toggle="http://schemas.android.com/apk/res/com.zcw.togglebutton.sample"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
-    android:background="@drawable/menu_bg">
-    
-    <com.zcw.togglebutton.ToggleButton
-        android:id="@+id/menu_togglebutton"
-        android:layout_width="60dp"
-        android:layout_height="25dp"
-        android:layout_margin="10dp" />
+    android:background="@drawable/menu_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="开启字幕"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <com.zcw.togglebutton.ToggleButton
+            android:id="@+id/menu_togglebutton"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="开启字幕"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <com.zcw.togglebutton.ToggleButton
+            android:id="@+id/menu_togglebutton2"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="开启字幕"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <com.zcw.togglebutton.ToggleButton
+            android:id="@+id/menu_togglebutton3"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp" />
+    </RelativeLayout>
 
 </LinearLayout>
